@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Elegan</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+    body { background:#0f172a; color:#fff; }header {
+  padding:20px;
+  text-align:center;
+  background:#020617;
+  position:sticky;
+  top:0;
+}
+
+header h1 { font-size:28px; }
+
+.container { padding:20px; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:#1e293b;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 20px rgba(0,0,0,0.3);
+  transition:0.3s;
+}
+
+.card:hover { transform:translateY(-5px); }
+
+img, video { width:100%; display:block; }
+
+.article {
+  margin-top:40px;
+  background:#1e293b;
+  padding:20px;
+  border-radius:16px;
+  line-height:1.6;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+  background:#020617;
+}
+
+@media(max-width:600px){
+  header h1 { font-size:22px; }
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Portofolio Saya</h1>
+  <p>Desain Elegan & Responsif</p>
+</header><div class="container">  <h2>Galeri Gambar</h2>
+  <div class="grid">
+    <div class="card"><img src="1.jpg" /></div>
+    <div class="card"><img src="2.jpg" /></div>
+    <div class="card"><img src="3.jpg" /></div>
+    <div class="card"><img src="3.jpg" /></div>
+  </div>  <h2 style="margin-top:40px;">Video</h2>
+  <div class="grid">
+    <div class="card">
+      <video controls>
+        <source src="1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="card">
+      <video controls>
+        <source src="2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>  <div class="article">
+    <h2>Artikel</h2>
+    <p>
+      Artikel Tentang Otomotif
+Perkembangan Dunia Otomotif di Era Modern
+Otomotif merupakan bidang yang berkaitan dengan kendaraan bermotor seperti mobil dan sepeda motor. Seiring perkembangan teknologi, dunia otomotif mengalami banyak perubahan yang membuat kendaraan menjadi lebih modern, aman, dan nyaman digunakan..
+    </p>
+  </div></div><footer>
+  <p>© 2026 Portofolio Saya</p>
+</footer></body>
+</html>
